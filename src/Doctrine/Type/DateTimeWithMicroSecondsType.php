@@ -6,7 +6,7 @@ namespace EonX\EasyBatch\Doctrine\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\Type;
 
-final class DateTimeWithMicroSeconds extends Type
+final class DateTimeWithMicroSecondsType extends Type
 {
     public const NAME = 'datetime_with_microseconds';
 
